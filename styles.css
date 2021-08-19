@@ -85,72 +85,18 @@ span {
 
 
 .fade-one {
-    animation-name: fadeone;
-    animation-duration: 30000ms;
-    animation-delay: 750ms;
-    animation-iteration-count: 1;
     opacity: 0;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes fadeone {
-    0% {
-        opacity: 0;
-    }
-
-    2% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    transition: all ease-in 750ms;
 }
 
 .fade-two {
-    animation-name: fadetwo;
-    animation-duration: 30000ms;
-    animation-delay: 1400ms;
-    animation-iteration-count: 1;
     opacity: 0;
-    animation-timing-function: ease-in-out;
+    transition: all ease-in 750ms;
 }
 
-@keyframes fadetwo {
-    0% {
-        opacity: 0;
-    }
-
-    3% {
-        opacity: 1;
-    }
-
-
-    100% {
-        opacity: 1;
-    }
-}
 .fade-three {
-    animation-name: fadethree;
-    animation-duration: 30000ms;
-    animation-delay: 2100ms;
-    animation-iteration-count: 1;
     opacity: 0;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes fadethree {
-    0% {
-        opacity: 0;
-    }
-
-    4% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    transition: all ease-in 750ms;
 }
 
 @media (max-width: 375px) {
