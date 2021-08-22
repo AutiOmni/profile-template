@@ -13,7 +13,6 @@ body {
 
 /* ------ INTRO --------- */
 
-
 .intro {
     height: 100vh;
     width: 100%;
@@ -21,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to top, #232325, #add8f6)
+    background: linear-gradient(to top, #232325, #add8f6);
 }
 
 a {
@@ -112,85 +111,52 @@ span {
 
 /* ------- PORT ------*/
 
-.portfolio {
-    height: 3024px;
-    width: 100vw;
+#projects {
+    height: 0px;
+    width: 100%;
 }
 
-@media (max-width: 1200px) {
-    .portfolio {
-        height: 2500px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .portfolio {
-        height: 2400px;
-    }
-}
-
-@media (max-width: 900px) {
-    .portfolio {
-        height: 2200px;
-    }
-}
-
-@media (max-width: 800px) {
-    .portfolio {
-        height: 1950px;
-    }
-}
-
-@media (max-width: 700px) {
-    .portfolio {
-        height: 1800px;
-    }
-}
-
-@media (max-width: 600px) {
-    .portfolio {
-        height: 1500px;
-    }
-}
-
-@media (max-width: 500px) {
-    .portfolio {
-        height: 1400px;
-    }
-}
-
-@media (max-width: 450px) {
-    .portfolio {
-        height: 1300px;
-    }
-}
-
-@media (max-width: 400px) {
-    .portfolio {
-        height: 1200px;
-    }
-}
-
-@media (max-width: 350px) {
-    .portfolio {
-        height: 1075px;
-    }
-}
 
 .left-port {
     position: sticky;
     top: 50px;
     float: left;
-    width: 39%;
-    height: 300px;
+    width: 35%;
+    height: 1px;
     color: #fff;
     background-color: #232325; 
     font-size: 2.5rem;
     text-shadow: 0 0 2px #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+.blob-contain {
+    position: relative;
+}
+
+.project-left-title {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#blob {
+    animation-name: blob;
+    animation-iteration-count: infinite;
+    animation-duration: 20000ms;
+    animation-timing-function: linear;
+    transform: rotate(0deg);
+}
+
+@keyframes blob {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
 }
 
 .right-port {
@@ -217,24 +183,6 @@ span {
     align-items: center;
     color: #fff;
     font-size: 1.5rem;
-}
-
-
-.project-contain {
-    background-image: url(https://www.flaticon.com/svg/static/icons/svg/599/599422.svg);
-    height: 300px;
-    width: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.project-contain h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -65%);
 }
 
 #project-title span {
@@ -268,19 +216,13 @@ span {
 
 @media (max-width: 800px) {
 
-    .project-contain {
-        height: 200px;
-        width: 200px;
-    }
-
-    .project-contain h2 {
-        font-size: .75em;
-    }
 
 
-   #project-title {
+   #project-title,
+   .project-left-title {
        font-size: .75em;
    }
+
 
    #project-title span {
     color: #add8e6;
