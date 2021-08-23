@@ -223,13 +223,13 @@ span {
 
 @media (max-width: 800px) {
 
-
-
-   #project-title,
-   .project-left-title {
+   #project-title {
        font-size: .75em;
    }
 
+   .project-left-title {
+       font-size: .6em;
+   }
 
    #project-title span {
     color: #add8e6;
