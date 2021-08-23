@@ -329,7 +329,7 @@ color: #8a1e1e;
 @media (max-width: 800px) {
 
     .contact {
-        height: 100vh;
+        height: 80vh;
     }
 
     .contact h2 {
