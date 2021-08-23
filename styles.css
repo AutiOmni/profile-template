@@ -13,7 +13,7 @@ body {
 /* --- WAVES ------------*/
 
 #wave-up {
-    width: 100vw;
+    width: 120vw;
     position: absolute;
     bottom: 0;
 }
@@ -48,37 +48,19 @@ h1 {
     color: #fff;
     font-size: 5rem;
     text-shadow: 0 0 2px #000;
+    z-index: 99;
 }
 
 span {
     font-size: 2.75rem;
 }
 
+.span-holder {
+            margin-bottom: 25vh;
+        }
 
 
 @media (max-width: 800px) {
-
-    .link-pad {
-        height: 6vh;
-    }
-
-    header {
-        height: 6.5vh;
-    }
-
-    #navbar {
-        height: 6.5vh;
-        float: left;
-    }
-
-    #navbar li {
-        height: 6.5vh;
-    }
-
-    #navbar a {
-        padding: 2em .95em 0em .95em;
-        font-size: .65em;
-    }
 
     h1 {
         font-size: 2.5rem;
@@ -89,7 +71,7 @@ span {
     } 
 
     #wave-up {
-     width: 250vw
+     width: 300vw
     }
     
     #wave-down {
@@ -291,6 +273,7 @@ span {
 }
 
 .contact h2 {
+    z-index: 99;
     font-size: 5rem;
 }
 
