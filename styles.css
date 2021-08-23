@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+html {
     font-family: 'Padauk', sans-serif;
     background-color: #232325;
-
+    overflow-x: hidden;
 }
 
 /* --- WAVES ------------*/
