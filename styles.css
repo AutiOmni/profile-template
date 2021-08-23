@@ -21,6 +21,7 @@ body {
     align-items: center;
     flex-direction: column;
     background: linear-gradient(to top, #232325, #add8f6);
+    position: relative;
 }
 
 a {
@@ -362,4 +363,38 @@ color: #8a1e1e;
     .project-contain h2 {
         font-size: .75em;
     }
+}
+
+#wave-one {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+#wave-two {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+#wave-three {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+#wave-one-down {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    
+}
+#wave-two-down {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+}
+#wave-three-down {
+    position: absolute;
+    width: 100vw;
+    top: 0;
 }
