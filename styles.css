@@ -10,6 +10,21 @@ body {
 
 }
 
+/* --- WAVES ------------*/
+
+#wave-up {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+#wave-down {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+
 
 /* ------ INTRO --------- */
 
@@ -72,6 +87,15 @@ span {
     span {
         font-size: 1.25rem;
     } 
+
+    #wave-up {
+     width: 250vw
+    }
+    
+    #wave-down {
+        width: 250vw;
+    }
+    
 
 }
 
@@ -363,38 +387,4 @@ color: #8a1e1e;
     .project-contain h2 {
         font-size: .75em;
     }
-}
-
-#wave-one {
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-}
-
-#wave-two {
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-}
-#wave-three {
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-}
-
-#wave-one-down {
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    
-}
-#wave-two-down {
-    position: absolute;
-    width: 100vw;
-    top: 0;
-}
-#wave-three-down {
-    position: absolute;
-    width: 100vw;
-    top: 0;
 }
