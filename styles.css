@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body,
-html {
+body {
     font-family: 'Padauk', sans-serif;
     background-color: #232325;
-    overflow-x: hidden;
 }
 
 /* --- WAVES ------------*/
@@ -25,8 +23,6 @@ html {
     top: 0;
 }
 
-
-
 /* ------ INTRO --------- */
 
 .intro {
@@ -36,8 +32,9 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to top, #232325, #add8f6);
+    background: linear-gradient(to top, #232325, #BB004B);
     position: relative;
+    overflow-x: hidden;
 }
 
 a {
@@ -254,7 +251,7 @@ span {
 .contact {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom, #232325, #add8f6);
+    background: linear-gradient(to bottom, #232325, #BB004B);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,6 +260,8 @@ span {
     flex-direction: column;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
+
 }
 
 .contact div {
