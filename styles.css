@@ -45,7 +45,10 @@ a {
 h1 {
     color: #fff;
     font-size: 5rem;
-    text-shadow: 0 0 2px #000;
+    text-shadow: 0.025em  0.025em 0em #232325,
+    0.05em  0.05em 0em #BB004B,
+    0.075em  0.075em 0em #232325,
+    0.1em  0.1em 0em #232325;        
     z-index: 99;
 }
 
@@ -143,7 +146,11 @@ span {
     z-index: 5;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    text-shadow: 0.025em  0.025em 0em #232325,
+    0.05em  0.05em 0em #BB004B,
+    0.075em  0.075em 0em #232325,
+    0.1em  0.1em 0em #232325;
 }
 
 #blob {
@@ -188,6 +195,7 @@ span {
     align-items: center;
     color: #fff;
     font-size: 1.5rem;
+
 }
 
 #project-title span {
@@ -197,7 +205,8 @@ span {
 }
 
 .port:hover span {
-    color: #add8e6 !important;
+    color: #ececec !important;
+
 }
 
 #typewriter {
@@ -275,6 +284,10 @@ span {
 .contact h2 {
     z-index: 99;
     font-size: 5rem;
+    text-shadow: 0.025em  0.025em 0em #232325,
+    0.05em  0.05em 0em #BB004B,
+    0.075em  0.075em 0em #232325,
+    0.1em  0.1em 0em #232325;
 }
 
  
@@ -299,6 +312,10 @@ span {
     height: 100px;
     position: absolute;
     bottom: 35px;
+    text-shadow: 0.025em  0.025em 0em #232325,
+    0.05em  0.05em 0em #BB004B,
+    0.075em  0.075em 0em #232325,
+    0.1em  0.1em 0em #232325;
 }
 
 .contact-links a {
@@ -323,7 +340,11 @@ i {
 display: inline-block;
 width: 6%;
 margin: 0em .5em 0em 0em;
-color: #8a1e1e;
+color: #232325;
+text-shadow: 0.025em  0.025em 0em #232325,
+0.05em  0.05em 0em #BB004B,
+0.075em  0.075em 0em #232325,
+0.1em  0.1em 0em #232325;
 }
 
 @media (max-width: 800px) {
